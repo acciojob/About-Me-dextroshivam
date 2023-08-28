@@ -1,1 +1,204 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px;
+            margin: 0px;
+            background-color: lightgoldenrodyellow;
+        }
+
+        .container {
+            display: flex;
+            background-color: white;
+            height: 90vh;
+            width: 90vw;
+            box-shadow: 1px 1px 5px black;
+            border: 1px solid black;
+        }
+
+        .left-container {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right-container {
+            width: 50%;
+            height: 100%;
+            padding-left: 2vw;
+        }
+
+        .right-container>p {
+            font-size: 25px;
+        }
+
+        .p1 {
+            margin-bottom: 10vh;
+        }
+
+        .p2 {
+            margin: 2px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .left-up-container {
+            display: flex;
+            width: 100%;
+            height: 50%;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .left-down-container {
+            width: 100%;
+            height: 50%;
+            margin-left:1vw;
+        }
+
+        .photo-container {
+            width: 50%;
+            height: 100%;
+            margin-left: 2vw;
+        }
+
+        .photo-container>img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .details-container {
+            width: 50%;
+            height: 100%;
+            font-size: 16px;
+            padding-top: 10vh;
+            padding-left: 2vh;
+        }
+
+        /* Make sure that padding behaves as expected */
+        * {
+            box-sizing: border-box
+        }
+
+        /* Container for skill bars */
+        .con {
+            width: 100%;
+            /* Full width */
+            background-color: #ddd;
+            /* Grey background */
+        }
+
+        .skills {
+            text-align: right;
+            /* Right-align text */
+            padding-top: 10px;
+            /* Add top padding */
+            margin-bottom: 10px;
+            /* Add bottom padding */
+            color: white;
+            /* White text color */
+        }
+
+        .html {
+            width: 90%;
+            background-color: #04AA6D;
+        }
+
+        /* Green */
+        .css {
+            width: 80%;
+            background-color: #2196F3;
+        }
+
+        /* Blue */
+        .js {
+            width: 65%;
+            background-color: #f44336;
+        }
+
+        /* Red */
+        .php {
+            width: 60%;
+            background-color: #808080;
+        }
+
+        /* Dark Grey */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="left-up-container">
+                <div class="photo-container">
+                    <img src="https://media.istockphoto.com/id/1416048929/photo/woman-working-on-laptop-online-checking-emails-and-planning-on-the-internet-while-sitting-in.webp?b=1&s=170667a&w=0&k=20&c=XCzSqjgn02etddi527fy6Q9Dz_MtPYKKc-MMbhS3kK0="
+                        alt="my-pic">
+                </div>
+                <div class="details-container">
+                    <section>
+                        <p>
+                        <h3 style="display: inline;">Name :</h3> Shivam Gupta</p>
+                    </section>
+                    <section>
+                        <p>
+                        <h3 style="display: inline;">Profile :</h3> Software Developer</p>
+                    </section>
+                    <section>
+                        <p>
+                        <h3 style="display: inline;">Email :</h3> shivamp9148@gmail.com</p>
+                    </section>
+                </div>
+            </div>
+            <div class="left-down-container">
+                <p>HTML</p>
+                <div class="con">
+                    <div class="skills html">90%</div>
+                </div>
+
+                <p>CSS</p>
+                <div class="con">
+                    <div class="skills css">80%</div>
+                </div>
+
+                <p>JavaScript</p>
+                <div class="con">
+                    <div class="skills js">65%</div>
+                </div>
+
+                <p>PHP</p>
+                <div class="con">
+                    <div class="skills php">60%</div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <h1>About Me</h1>
+            <hr>
+            <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur itaque cumque doloribus
+                accusantium
+                velit qui repudiandae cum accusamus ipsum minima nemo culpa iure quos corporis autem, deserunt in
+                recusandae! Aliquid, libero delectus. Architecto consectetur cumque molestias hic corrupti! Numquam modi
+                eaque quia eius id soluta rerum ipsam ab eveniet quis!</p>
+            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam in dolor dolorem praesentium
+                quae. Enim
+                iste mollitia, sit a quam explicabo repellat quaerat velit dignissimos, dolorum amet soluta voluptatem.
+                Dolore.</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
